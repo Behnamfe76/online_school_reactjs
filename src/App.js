@@ -1,11 +1,12 @@
+/** @format */
 import Routing from "./routes/Routing";
 
 function App() {
-  return (
-    <div>
-      <Routing />
-    </div>
-  );
+	return (
+		<div>
+			<Routing />
+		</div>
+	);
 }
 
 export default App;

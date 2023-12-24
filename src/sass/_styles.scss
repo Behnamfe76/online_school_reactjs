@@ -1,0 +1,33 @@
+/** @format */
+
+* {
+	font-family: "Vazir";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Vazir";
+}
+html,
+body {
+	direction: rtl;
+}
+.dropdown-menu-end[data-bs-popper] {
+	right: auto;
+	left: 0;
+}
+.Toastify__toast-theme--dark {
+    background: #0f0f10;
+    color: #c5c6cc;
+}
+
+.dropdown-item{
+	text-align: right;
+	
+}
+.dropdown-toggle::before{
+	right: 12rem !important;
+}

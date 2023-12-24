@@ -1,9 +1,11 @@
 /** @format */
 
+import NotFoundLanding from "../partials/landings/NotFoundLanding";
+
 function NotFound() {
 	return (
 		<>
-			<h1>404</h1>
+			<NotFoundLanding />
 		</>
 	);
 }

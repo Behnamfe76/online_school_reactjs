@@ -1,7 +1,13 @@
 @import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-icons/font/bootstrap-icons.scss';
 
-@import './variables.scss';
-@import './fonts.scss';
-@import './utilities.scss';
-@import './styles.scss';
-@import './partials.scss';
+@import './_variables.scss';
+@import './_fonts.scss';
+@import './_partials.scss';
+@import './_dark-mode';
+@import './_user';
+@import './_utilities.scss';
+@import './_additional_styles.scss';
+@import './_styles.scss';
+
+

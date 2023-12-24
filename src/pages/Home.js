@@ -1,11 +1,13 @@
 /** @format */
 
+import HomeLanding from "../partials/landings/HomeLanding";
+
 function Home() {
 	return (
 		<>
-        <div className="container">
-			<h1>Home</h1>
-        </div>
+			<div>
+				<HomeLanding />
+			</div>
 		</>
 	);
 }
